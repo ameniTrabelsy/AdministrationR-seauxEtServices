@@ -1,0 +1,13 @@
+services:
+  client-service:
+    build:
+      context: ./client-service
+      dockerfile: Dockerfile.dockerfile  # Updated to match the actual filename
+  order-service:
+    build:
+      context: ./order-service
+      dockerfile: Dockerfile.dockerfile  # Updated to match the actual filename
+  product-service:
+    build:
+      context: ./product-service
+      dockerfile: Dockerfile.dockerfile  # Updated to match the actual filename
